@@ -1,0 +1,19 @@
+{
+  "app.js": "/public/js/app.js",
+  "js/vendor.js": "/public/js/vendor.js",
+  "vendor.js": "/public/js/vendor.js",
+  "deps": {
+    "app.js": {
+      "js": [
+        "/public/js/vendor.js",
+        "/public/js/app.js"
+      ],
+      "css": []
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "\\public",
+    "mapped": true
+  }
+}

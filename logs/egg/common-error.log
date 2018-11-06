@@ -1,0 +1,841 @@
+2018-10-31 17:58:59,783 ERROR 14788 [-/127.0.0.1/-/6ms GET /home] nodejs.TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:28:11)
+    at Object.join (path.js:489:7)
+    at Engine.app.vue.render (E:\job\node-website\node_modules\egg-webpack-vue\app.js:15:60)
+    at View.render (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\view.js:21:25)
+    at ContextView.[contextView#render] (E:\job\node-website\node_modules\egg-view\lib\context_view.js:70:23)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 14788
+hostname: DESKTOP-HP45ISJ
+
+2018-10-31 18:36:46,174 ERROR 15240 [home/home.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\job\node-website\app\view\home\home.js] content is empty, please check if the file exists
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\job\node-website\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2018-10-31 18:36:46,188 ERROR 15240 [-/127.0.0.1/-/24ms GET /home] nodejs.Error: render function or template not defined in component: home/home.js
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:123:21)
+    at new Promise (<anonymous>)
+    at Engine.renderString (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:122:12)
+    at Engine.renderClient (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:141:17)
+    at app.vue.render.then.catch.err (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\view.js:26:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 15240
+hostname: DESKTOP-HP45ISJ
+
+2018-10-31 18:39:36,506 ERROR 14940 [home/home.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\job\node-website\app\view\home\home.js] content is empty, please check if the file exists
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\job\node-website\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2018-10-31 18:39:36,522 ERROR 14940 nodejs.unhandledRejectionError: render function or template not defined in component: home/home.js
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:123:21)
+    at new Promise (<anonymous>)
+    at Engine.renderString (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:122:12)
+    at Engine.renderClient (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:141:17)
+    at app.vue.render.then.catch.err (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\view.js:26:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+name: "unhandledRejectionError"
+pid: 14940
+hostname: DESKTOP-HP45ISJ
+
+2018-10-31 18:39:37,790 ERROR 14940 [home/home.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\job\node-website\app\view\home\home.js] content is empty, please check if the file exists
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\job\node-website\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2018-10-31 18:39:37,801 ERROR 14940 nodejs.unhandledRejectionError: render function or template not defined in component: home/home.js
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:123:21)
+    at new Promise (<anonymous>)
+    at Engine.renderString (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:122:12)
+    at Engine.renderClient (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:141:17)
+    at app.vue.render.then.catch.err (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\view.js:26:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+name: "unhandledRejectionError"
+pid: 14940
+hostname: DESKTOP-HP45ISJ
+
+2018-10-31 18:39:38,381 ERROR 14940 [home/home.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\job\node-website\app\view\home\home.js] content is empty, please check if the file exists
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\job\node-website\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2018-10-31 18:39:38,393 ERROR 14940 nodejs.unhandledRejectionError: render function or template not defined in component: home/home.js
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:123:21)
+    at new Promise (<anonymous>)
+    at Engine.renderString (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:122:12)
+    at Engine.renderClient (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:141:17)
+    at app.vue.render.then.catch.err (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\view.js:26:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+name: "unhandledRejectionError"
+pid: 14940
+hostname: DESKTOP-HP45ISJ
+
+2018-10-31 18:46:42,194 ERROR 1472 [home/home.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\job\node-website\app\view\home\home.js] content is empty, please check if the file exists
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\job\node-website\node_modules\co\index.js:65:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+2018-10-31 18:46:42,219 ERROR 1472 [-/127.0.0.1/-/44ms GET /home] nodejs.Error: render function or template not defined in component: home/home.js
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:123:21)
+    at new Promise (<anonymous>)
+    at Engine.renderString (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:122:12)
+    at Engine.renderClient (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:141:17)
+    at app.vue.render.then.catch.err (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\view.js:26:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 1472
+hostname: DESKTOP-HP45ISJ
+
+2018-10-31 19:18:17,363 ERROR 1220 [home.js] server render bundle error, try client render, the server render error { Error: Cannot find module 'component/layout/index'
+    at webpackMissingModule (webpack:///./app/web/framework/entry/template.js?:2:45)
+    at eval (webpack:///./app/web/framework/entry/template.js?:2:142)
+    at Module../app/web/framework/entry/template.js (__vue_ssr_bundle__:97:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/page/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:7:112)
+    at Module../node_modules/babel-loader/lib/index.js!./node_modules/vue-entry-loader/index.js?templateFile=E:\job\node-website\app\web\framework\entry\template.js!./app/web/page/home.vue (__vue_ssr_bundle__:121:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at __vue_ssr_bundle__:84:18
+    at Object.<anonymous> (__vue_ssr_bundle__:87:10)
+    at evaluateModule (E:\job\node-website\node_modules\vue-server-renderer\build.js:8349:21) code: 'MODULE_NOT_FOUND' }
+2018-10-31 19:18:17,376 ERROR 1220 [-/127.0.0.1/-/75ms GET /home] nodejs.Error: render function or template not defined in component: home.js
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:123:21)
+    at new Promise (<anonymous>)
+    at Engine.renderString (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:122:12)
+    at Engine.renderClient (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:141:17)
+    at app.vue.render.then.catch.err (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\view.js:26:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 1220
+hostname: DESKTOP-HP45ISJ
+
+2018-10-31 19:18:18,684 ERROR 1220 [home.js] server render bundle error, try client render, the server render error { Error: Cannot find module 'component/layout/index'
+    at webpackMissingModule (webpack:///./app/web/framework/entry/template.js?:2:45)
+    at eval (webpack:///./app/web/framework/entry/template.js?:2:142)
+    at Module../app/web/framework/entry/template.js (__vue_ssr_bundle__:97:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/page/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:7:112)
+    at Module../node_modules/babel-loader/lib/index.js!./node_modules/vue-entry-loader/index.js?templateFile=E:\job\node-website\app\web\framework\entry\template.js!./app/web/page/home.vue (__vue_ssr_bundle__:121:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at __vue_ssr_bundle__:84:18
+    at Object.<anonymous> (__vue_ssr_bundle__:87:10)
+    at evaluateModule (E:\job\node-website\node_modules\vue-server-renderer\build.js:8349:21) code: 'MODULE_NOT_FOUND' }
+2018-10-31 19:18:18,692 ERROR 1220 [-/127.0.0.1/-/19ms GET /home] nodejs.Error: render function or template not defined in component: home.js
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:123:21)
+    at new Promise (<anonymous>)
+    at Engine.renderString (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:122:12)
+    at Engine.renderClient (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:141:17)
+    at app.vue.render.then.catch.err (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\view.js:26:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 1220
+hostname: DESKTOP-HP45ISJ
+
+2018-10-31 19:18:19,135 ERROR 1220 [home.js] server render bundle error, try client render, the server render error { Error: Cannot find module 'component/layout/index'
+    at webpackMissingModule (webpack:///./app/web/framework/entry/template.js?:2:45)
+    at eval (webpack:///./app/web/framework/entry/template.js?:2:142)
+    at Module../app/web/framework/entry/template.js (__vue_ssr_bundle__:97:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/page/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:7:112)
+    at Module../node_modules/babel-loader/lib/index.js!./node_modules/vue-entry-loader/index.js?templateFile=E:\job\node-website\app\web\framework\entry\template.js!./app/web/page/home.vue (__vue_ssr_bundle__:121:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at __vue_ssr_bundle__:84:18
+    at Object.<anonymous> (__vue_ssr_bundle__:87:10)
+    at evaluateModule (E:\job\node-website\node_modules\vue-server-renderer\build.js:8349:21) code: 'MODULE_NOT_FOUND' }
+2018-10-31 19:18:19,144 ERROR 1220 [-/127.0.0.1/-/17ms GET /home] nodejs.Error: render function or template not defined in component: home.js
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:123:21)
+    at new Promise (<anonymous>)
+    at Engine.renderString (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:122:12)
+    at Engine.renderClient (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:141:17)
+    at app.vue.render.then.catch.err (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\view.js:26:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 1220
+hostname: DESKTOP-HP45ISJ
+
+2018-10-31 19:48:02,174 ERROR 8836 [home.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/eslint-loader/index.js):
+Error: ENOENT: no such file or directory, open 'E:\job\node-website\app\web\component\layout\index.js'
+    at eval (webpack:///./app/web/component/layout/index.js?:1:7)
+    at Object../app/web/component/layout/index.js (__vue_ssr_bundle__:96:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/framework/entry/template.js?:2:80)
+    at Module../app/web/framework/entry/template.js (__vue_ssr_bundle__:108:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/page/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:7:112)
+    at Module../node_modules/babel-loader/lib/index.js!./node_modules/vue-entry-loader/index.js?templateFile=E:\job\node-website\app\web\framework\entry\template.js!./app/web/page/home.vue (__vue_ssr_bundle__:132:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at __vue_ssr_bundle__:84:18
+2018-10-31 19:48:02,972 ERROR 8836 [home.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/eslint-loader/index.js):
+Error: ENOENT: no such file or directory, open 'E:\job\node-website\app\web\component\layout\index.js'
+    at eval (webpack:///./app/web/component/layout/index.js?:1:7)
+    at Object../app/web/component/layout/index.js (__vue_ssr_bundle__:96:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/framework/entry/template.js?:2:80)
+    at Module../app/web/framework/entry/template.js (__vue_ssr_bundle__:108:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at eval (webpack:///./app/web/page/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:7:112)
+    at Module../node_modules/babel-loader/lib/index.js!./node_modules/vue-entry-loader/index.js?templateFile=E:\job\node-website\app\web\framework\entry\template.js!./app/web/page/home.vue (__vue_ssr_bundle__:132:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at __vue_ssr_bundle__:84:18
+2018-10-31 19:48:30,714 ERROR 1928 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 1928
+hostname: DESKTOP-HP45ISJ
+
+2018-10-31 20:04:06,702 ERROR 14604 [home.js] server render bundle error, try client render, the server render error TypeError: _vm.$t is not a function
+    at Proxy.render (webpack:///./app/web/component/layout/index/header/header.vue?./node_modules/vue-loader/lib/template-compiler?%7B%22id%22:%22data-v-3a5ab030%22,%22hasScoped%22:false,%22optionsId%22:%220%22,%22buble%22:%7B%22transforms%22:%7B%7D%7D%7D!./node_modules/vue-loader/lib/selector.js?type=template&index=0:17:35)
+    at VueComponent.Vue._render (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4542:22)
+    at renderComponentInner (E:\job\node-website\node_modules\vue-server-renderer\build.js:7532:25)
+    at renderComponent (E:\job\node-website\node_modules\vue-server-renderer\build.js:7502:5)
+    at RenderContext.renderNode (E:\job\node-website\node_modules\vue-server-renderer\build.js:7418:5)
+    at RenderContext.next (E:\job\node-website\node_modules\vue-server-renderer\build.js:2436:14)
+    at cachedWrite (E:\job\node-website\node_modules\vue-server-renderer\build.js:2295:9)
+    at renderElement (E:\job\node-website\node_modules\vue-server-renderer\build.js:7656:5)
+    at renderNode (E:\job\node-website\node_modules\vue-server-renderer\build.js:7420:5)
+    at renderComponentInner (E:\job\node-website\node_modules\vue-server-renderer\build.js:7538:3)
+2018-11-01 15:08:37,104 ERROR 7376 [home.js] server render bundle error, try client render, the server render error TypeError: _vm.$t is not a function
+    at Proxy.render (webpack:///./app/web/component/layout/index/header/header.vue?./node_modules/vue-loader/lib/template-compiler?%7B%22id%22:%22data-v-3a5ab030%22,%22hasScoped%22:false,%22optionsId%22:%221%22,%22buble%22:%7B%22transforms%22:%7B%7D%7D%7D!./node_modules/vue-loader/lib/selector.js?type=template&index=0:17:35)
+    at VueComponent.Vue._render (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4542:22)
+    at renderComponentInner (E:\job\node-website\node_modules\vue-server-renderer\build.js:7532:25)
+    at renderComponent (E:\job\node-website\node_modules\vue-server-renderer\build.js:7502:5)
+    at RenderContext.renderNode (E:\job\node-website\node_modules\vue-server-renderer\build.js:7418:5)
+    at RenderContext.next (E:\job\node-website\node_modules\vue-server-renderer\build.js:2436:14)
+    at cachedWrite (E:\job\node-website\node_modules\vue-server-renderer\build.js:2295:9)
+    at renderElement (E:\job\node-website\node_modules\vue-server-renderer\build.js:7656:5)
+    at renderNode (E:\job\node-website\node_modules\vue-server-renderer\build.js:7420:5)
+    at renderComponentInner (E:\job\node-website\node_modules\vue-server-renderer\build.js:7538:3)
+2018-11-01 15:14:50,386 ERROR 13348 [home.js] server render bundle error, try client render, the server render error TypeError: _vm.$t is not a function
+    at Proxy.render (webpack:///./app/web/component/layout/index/header/header.vue?./node_modules/vue-loader/lib/template-compiler?%7B%22id%22:%22data-v-3a5ab030%22,%22hasScoped%22:false,%22optionsId%22:%221%22,%22buble%22:%7B%22transforms%22:%7B%7D%7D%7D!./node_modules/vue-loader/lib/selector.js?type=template&index=0:17:35)
+    at VueComponent.Vue._render (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4542:22)
+    at renderComponentInner (E:\job\node-website\node_modules\vue-server-renderer\build.js:7532:25)
+    at renderComponent (E:\job\node-website\node_modules\vue-server-renderer\build.js:7502:5)
+    at RenderContext.renderNode (E:\job\node-website\node_modules\vue-server-renderer\build.js:7418:5)
+    at RenderContext.next (E:\job\node-website\node_modules\vue-server-renderer\build.js:2436:14)
+    at cachedWrite (E:\job\node-website\node_modules\vue-server-renderer\build.js:2295:9)
+    at renderElement (E:\job\node-website\node_modules\vue-server-renderer\build.js:7656:5)
+    at renderNode (E:\job\node-website\node_modules\vue-server-renderer\build.js:7420:5)
+    at renderComponentInner (E:\job\node-website\node_modules\vue-server-renderer\build.js:7538:3)
+2018-11-01 15:16:51,727 ERROR 10700 [home.js] server render bundle error, try client render, the server render error TypeError: _vm.$t is not a function
+    at Proxy.render (webpack:///./app/web/component/layout/index/header/header.vue?./node_modules/vue-loader/lib/template-compiler?%7B%22id%22:%22data-v-3a5ab030%22,%22hasScoped%22:false,%22optionsId%22:%221%22,%22buble%22:%7B%22transforms%22:%7B%7D%7D%7D!./node_modules/vue-loader/lib/selector.js?type=template&index=0:17:35)
+    at VueComponent.Vue._render (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4542:22)
+    at renderComponentInner (E:\job\node-website\node_modules\vue-server-renderer\build.js:7532:25)
+    at renderComponent (E:\job\node-website\node_modules\vue-server-renderer\build.js:7502:5)
+    at RenderContext.renderNode (E:\job\node-website\node_modules\vue-server-renderer\build.js:7418:5)
+    at RenderContext.next (E:\job\node-website\node_modules\vue-server-renderer\build.js:2436:14)
+    at cachedWrite (E:\job\node-website\node_modules\vue-server-renderer\build.js:2295:9)
+    at renderElement (E:\job\node-website\node_modules\vue-server-renderer\build.js:7656:5)
+    at renderNode (E:\job\node-website\node_modules\vue-server-renderer\build.js:7420:5)
+    at renderComponentInner (E:\job\node-website\node_modules\vue-server-renderer\build.js:7538:3)
+2018-11-01 16:13:05,006 ERROR 17032 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17032
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 16:15:58,621 ERROR 8620 [home.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/vue-loader/index.js):
+Error: ENOENT: no such file or directory, open 'E:\job\node-website\app\web\page\home.vue'
+    at eval (webpack:///./app/web/page/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:1:7)
+    at Object../node_modules/babel-loader/lib/index.js!./node_modules/vue-entry-loader/index.js?templateFile=E:\job\node-website\app\web\framework\entry\template.js!./app/web/page/home.vue (__vue_ssr_bundle__:96:1)
+    at __webpack_require__ (__vue_ssr_bundle__:20:30)
+    at __vue_ssr_bundle__:84:18
+    at Object.<anonymous> (__vue_ssr_bundle__:87:10)
+    at evaluateModule (E:\job\node-website\node_modules\vue-server-renderer\build.js:8349:21)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8407:18
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+2018-11-01 16:26:07,063 ERROR 14428 [home.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\job\node-website\app\view\home.js] content is empty, please check if the file exists
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\job\node-website\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-01 16:33:10,343 ERROR 1132 [home/home.js] server render bundle error, try client render, the server render error ReferenceError: Dashboard is not defined
+    at Object.createRouter [as router] (webpack:///./app/web/page/home/router/index.js?:19:18)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:17:221)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+    at new Promise (<anonymous>)
+    at Engine.render (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:108:12)
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:22:36
+2018-11-01 16:33:27,358 ERROR 1132 [home/home.js] server render bundle error, try client render, the server render error Error: [vue-router] "path" is required in a route configuration.
+    at assert (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:12:11)
+    at addRouteRecord (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:1148:5)
+    at E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:1118:5
+    at Array.forEach (<anonymous>)
+    at createRouteMap (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:1117:10)
+    at createMatcher (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:1338:13)
+    at new VueRouter (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:2432:18)
+    at Object.createRouter [as router] (webpack:///./app/web/page/home/router/index.js?:14:10)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:17:221)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+2018-11-01 16:33:29,269 ERROR 1132 [home/home.js] server render bundle error, try client render, the server render error Error: [vue-router] "path" is required in a route configuration.
+    at assert (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:12:11)
+    at addRouteRecord (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:1148:5)
+    at E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:1118:5
+    at Array.forEach (<anonymous>)
+    at createRouteMap (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:1117:10)
+    at createMatcher (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:1338:13)
+    at new VueRouter (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:2432:18)
+    at Object.createRouter [as router] (webpack:///./app/web/page/home/router/index.js?:14:10)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:17:221)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+2018-11-01 16:33:38,597 ERROR 15784 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 16:33:53,159 ERROR 15888 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:39:11,929 ERROR 15588 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:41:04,892 ERROR 11388 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:45:31,357 ERROR 15784 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 16:45:39,035 ERROR 7140 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:45:39,216 ERROR 7140 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:48:01,884 ERROR 7140 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:48:03,987 ERROR 7140 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:51:19,280 ERROR 7140 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:51:20,882 ERROR 7140 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:51:24,145 ERROR 7140 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:51:24,880 ERROR 7140 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:51:33,510 ERROR 7140 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:51:42,344 ERROR 7140 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:51:50,749 ERROR 7140 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:56:31,656 ERROR 10792 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:57:16,067 ERROR 10792 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 16:57:17,355 ERROR 10792 [home/home.js] server render bundle error, try client render, the server render error TypeError: this._router.init is not a function
+    at VueComponent.beforeCreate (E:\job\node-website\node_modules\vue-router\dist\vue-router.common.js:542:22)
+    at callHook (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:2919:21)
+    at VueComponent.Vue._init (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4624:5)
+    at new VueComponent (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4796:12)
+    at __webpack_exports__.default (webpack:///./app/web/page/home/home.vue?./node_modules/babel-loader/lib!./node_modules/vue-entry-loader?templateFile=E:/job/node-website/app/web/framework/entry/template.js:57:10)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8437:15
+    at new Promise (<anonymous>)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8399:14
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8575:9)
+    at Promise (E:\job\node-website\node_modules\egg-view-vue-ssr\lib\engine.js:109:62)
+2018-11-01 17:01:18,119 ERROR 15784 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 17:07:53,459 ERROR 12572 [-/127.0.0.1/-/24ms GET /home/] nodejs.ReferenceError: ctx is not defined
+    at HomeController.home (E:\job\node-website\app\controller\home.js:11:17)
+    at Object.callFn (E:\job\node-website\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\job\node-website\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\job\node-website\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\job\node-website\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\job\node-website\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 12572
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 17:08:12,909 ERROR 12572 [-/127.0.0.1/-/3ms GET /home/] nodejs.ReferenceError: ctx is not defined
+    at HomeController.home (E:\job\node-website\app\controller\home.js:11:17)
+    at Object.callFn (E:\job\node-website\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\job\node-website\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\job\node-website\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\job\node-website\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\job\node-website\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 12572
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 17:08:14,418 ERROR 12572 [-/127.0.0.1/-/1ms GET /home/] nodejs.ReferenceError: ctx is not defined
+    at HomeController.home (E:\job\node-website\app\controller\home.js:11:17)
+    at Object.callFn (E:\job\node-website\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\job\node-website\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\job\node-website\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\job\node-website\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\job\node-website\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 12572
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 17:08:15,302 ERROR 12572 [-/127.0.0.1/-/1ms GET /home/] nodejs.ReferenceError: ctx is not defined
+    at HomeController.home (E:\job\node-website\app\controller\home.js:11:17)
+    at Object.callFn (E:\job\node-website\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (E:\job\node-website\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\job\node-website\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (E:\job\node-website\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at E:\job\node-website\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at E:\job\node-website\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 12572
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 17:08:29,233 ERROR 15784 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 17:20:09,125 ERROR 15784 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 17:20:45,805 ERROR 15784 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 18:32:49,180 ERROR 15784 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 18:33:25,885 ERROR 15784 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\job\\node-website\\app\\web\\component\\layout\\admin\\header"
+name: "EPERMError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 18:33:25,937 ERROR 15784 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\job\\node-website\\app\\web\\component\\layout\\admin\\content"
+name: "EPERMError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 18:33:25,948 ERROR 15784 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\job\\node-website\\app\\web\\component\\layout\\admin\\menu"
+name: "EPERMError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 18:33:25,997 ERROR 15784 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\job\\node-website\\app\\web\\component\\layout\\admin\\footer"
+name: "EPERMError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 18:33:27,765 ERROR 15784 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:123:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "E:\\job\\node-website\\app\\web\\component\\layout\\admin"
+name: "EPERMError"
+pid: 15784
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 19:36:49,650 ERROR 7732 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7732
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 19:36:57,327 ERROR 7732 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7732
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 19:53:22,198 ERROR 7732 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7732
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 19:53:59,350 ERROR 7732 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7732
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 19:54:40,523 ERROR 7732 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7732
+hostname: DESKTOP-HP45ISJ
+
+2018-11-01 19:54:57,325 ERROR 7732 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7732
+hostname: DESKTOP-HP45ISJ
+
+2018-11-02 16:29:09,568 ERROR 3044 [app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\job\node-website\app\view\app.js] content is empty, please check if the file exists
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\job\node-website\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:32:18,200 ERROR 15932 [app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\job\node-website\app\view\app.js] content is empty, please check if the file exists
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\job\node-website\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:32:19,327 ERROR 15932 [app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\job\node-website\app\view\app.js] content is empty, please check if the file exists
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\job\node-website\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:32:31,534 ERROR 3624 [app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\job\node-website\app\view\app.js] content is empty, please check if the file exists
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\job\node-website\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:34:31,241 ERROR 3624 [app.js] server render bundle error, try client render, the server render error Error: read webpack memory file[E:\job\node-website\app\view\app.js] content is empty, please check if the file exists
+    at E:\job\node-website\node_modules\egg-webpack-vue\app.js:20:17
+    at Generator.next (<anonymous>)
+    at onFulfilled (E:\job\node-website\node_modules\co\index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:36:02,571 ERROR 17380 [app.js] server render bundle error, try client render, the server render error Error: render function or template not defined in component: anonymous
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8580:22
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:36:02,869 ERROR 17380 [app.js] server render bundle error, try client render, the server render error Error: render function or template not defined in component: anonymous
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8580:22
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:36:07,043 ERROR 17380 [app.js] server render bundle error, try client render, the server render error Error: render function or template not defined in component: anonymous
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8580:22
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:36:08,324 ERROR 17380 [app.js] server render bundle error, try client render, the server render error Error: render function or template not defined in component: anonymous
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8580:22
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:36:11,891 ERROR 11456 [app.js] server render bundle error, try client render, the server render error Error: render function or template not defined in component: anonymous
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8580:22
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:36:12,292 ERROR 11456 [app.js] server render bundle error, try client render, the server render error Error: render function or template not defined in component: anonymous
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8580:22
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:36:14,831 ERROR 11456 [app.js] server render bundle error, try client render, the server render error Error: render function or template not defined in component: anonymous
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8580:22
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:37:14,580 ERROR 1412 [app.js] server render bundle error, try client render, the server render error Error: render function or template not defined in component: anonymous
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8580:22
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:37:35,610 ERROR 5432 [app.js] server render bundle error, try client render, the server render error Error: render function or template not defined in component: anonymous
+    at normalizeRender (E:\job\node-website\node_modules\vue-server-renderer\build.js:7407:13)
+    at render (E:\job\node-website\node_modules\vue-server-renderer\build.js:7763:5)
+    at Object.renderToString (E:\job\node-website\node_modules\vue-server-renderer\build.js:8243:9)
+    at E:\job\node-website\node_modules\vue-server-renderer\build.js:8580:22
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018-11-02 16:52:37,323 ERROR 14404 [app.js] server render bundle error, try client render, the server render error TypeError: Cannot read property 'name' of null
+    at Proxy.render (webpack:///./app/web/page/index.vue?./node_modules/vue-loader/lib/template-compiler?%7B%22id%22:%22data-v-49beeff6%22,%22hasScoped%22:false,%22optionsId%22:%221%22,%22buble%22:%7B%22transforms%22:%7B%7D%7D%7D!./node_modules/vue-loader/lib/selector.js?type=template&index=0:9:67)
+    at VueComponent.Vue._render (E:\job\node-website\node_modules\vue\dist\vue.runtime.common.js:4542:22)
+    at renderComponentInner (E:\job\node-website\node_modules\vue-server-renderer\build.js:7532:25)
+    at renderComponent (E:\job\node-website\node_modules\vue-server-renderer\build.js:7502:5)
+    at RenderContext.renderNode (E:\job\node-website\node_modules\vue-server-renderer\build.js:7418:5)
+    at RenderContext.next (E:\job\node-website\node_modules\vue-server-renderer\build.js:2436:14)
+    at cachedWrite (E:\job\node-website\node_modules\vue-server-renderer\build.js:2295:9)
+    at renderStringNode$1 (E:\job\node-website\node_modules\vue-server-renderer\build.js:7623:5)
+    at RenderContext.renderNode (E:\job\node-website\node_modules\vue-server-renderer\build.js:7416:5)
+    at RenderContext.next (E:\job\node-website\node_modules\vue-server-renderer\build.js:2436:14)
